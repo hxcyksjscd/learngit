@@ -1,0 +1,674 @@
+.max{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.marauto{
+	width: 1616px;
+	margin: 0 auto;
+}
+.c-img{
+	position: absolute;
+	width: 1616px;
+	bottom:0px;
+	left: 50%;
+	margin-left:-808px;
+	overflow: hidden;
+	/*居中左右隐藏*/
+}
+
+.all{
+	width: 1206px;
+	margin: 0 auto;
+}
+
+.g-bchead{
+	height: 36px;
+	background-color: #f3f3f3;
+	font: 12px/36px 微软雅黑;
+}
+.g-bchead a{
+	color: #21a557;
+}
+.g-bchead button{
+	width: 66px;
+	text-align: right;
+	border: 0;
+	margin-top: 12px;
+	background-color: #f3f3f3;
+	background: url(../images/spirit.png) no-repeat -284px -25px;
+}
+.g-head{
+	margin-top: 32px;
+	height: 22px;
+}
+.m-logo{
+	height: 22px;
+	width: 155px;
+	background: url(../images/spirit.png) no-repeat -223px 0;
+	padding-left: 80px;
+	font: bold 22px/1em 微软雅黑;
+}
+.f-logo-rt-l{
+	height: 22px;
+	width: 54px;
+	margin-left: 30px;
+	background-color: #21a557;
+	color: white;
+	border: 0;
+	font: 12px;
+}
+.f-logo-rt-r{
+	margin-left: 14px;
+	font: 12px/22px 宋体;
+	color: #666;
+}
+.m-nav li{
+	float: left;
+	margin-left: 52px;
+	font: 16px/22px 微软雅黑;
+}
+.ser{
+	width: 18px;
+	height: 18px;
+	margin-left: 30px;
+	background: url(../images/spirit.png) no-repeat ;
+}/*头部*/
+
+.m-banner{
+	padding-top: 40px;
+	height: 460px;
+}
+.g-banner-nav{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+.g-banner-nav li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	background-color: #fff;
+	-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+}
+.g-banner-nav .bnactive{
+	background-color: #333;
+}
+.m-banner .c-img li{
+	float: left;
+	width: 1616px;
+	overflow: hidden;
+	position: relative;
+}
+.m-banner .c-img{
+	height: 460px;
+	position: relative;
+}
+.f-banner{
+	position: absolute;
+	width: 4848px;
+	height: 460px;
+	left: -1616;
+	opacity: 1;
+}
+.f-banner li{
+	opacity: 0;
+	transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s; /* Firefox 4 */
+	-webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+	-o-transition-duration: 0.5s; /* Opera */
+}
+.f-banner li:nth-child(1){
+	opacity: 1;
+}
+.m-nav-text li{
+	float: left;
+	margin-top: 70px;
+}
+.m-nav-text li+li{
+	margin-left: 108px;
+}
+.icon{
+	width: 80px;
+	height: 180px;
+	margin: 6px 15px 0 4px;
+}
+.icon1{
+	background: url(../images/spirit.png) no-repeat 0 -83px;
+}
+.icon2{
+	background: url(../images/spirit.png) no-repeat -80px -83px;
+}
+.icon3{
+	background: url(../images/spirit.png) no-repeat -160px -83px;
+}
+.txtwh{
+	width: 330px;
+	font: 14px/24px 微软雅黑;
+	color:#666;
+	margin: 20px 0 32px 0;
+}
+h2{
+	font: 22px/1em 微软雅黑;
+}
+.mor{
+	font: 14px 微软雅黑;
+	color:#39a030;
+}/*导航*/
+
+
+.m-nav-img{
+	padding-top: 60px;
+	height: 222px;
+}
+.ptowh{
+	width: 320px;
+	height:222px;
+}
+.ptowh+.ptowh{
+	padding-left: 4px;
+}/*图片*/
+
+
+.f-tab-head{
+	width: 400px;
+	height: 50px;
+	margin-top: 80px;
+	-moz-box-shadow: 1px 2px 1px #d4d3d3;     /* Gecko browsers */
+	-webkit-box-shadow: 1px 2px 1px #d4d3d3;  /* Webkit browsers */
+	box-shadow: 1px 2px 1px #d4d3d3;          /* W3C syntax */
+}
+.f-tab-head-m{
+	border: 0;
+	height: 50px;
+	width: 200px;
+	background-color: #fff;
+	color: #666;
+	font: 20px 微软雅黑;
+}
+.hovt{
+	background-color: #39a030;
+	color: #fff;
+}/*tab按键*/
+
+.g-body-b{
+	width: 1206px;
+	margin: 0 auto; 
+}
+
+.f-tab-body{
+	margin-top: 30px;
+}
+.f-tab-body td{
+	width: 223px;
+	display: inline-block;
+	padding: 0px 20px 21px 1px;
+	
+}/*tab内容布局*/
+.rl{
+	width: 223px;
+	height: 218px;
+	position: relative;
+	background-color: #fff;
+	-moz-box-shadow: 1px 2px 1px #d4d3d3;     /* Gecko browsers */
+	-webkit-box-shadow: 1px 2px 1px #d4d3d3;  /* Webkit browsers */
+	box-shadow: 1px 2px 1px #d4d3d3;          /* W3C syntax */
+/*	border-right: solid 1px #d4d3d3\0;
+	border-bottom: solid 1px #d4d3d3\0;*/
+}
+.f-tab-img{
+	height: 124px;
+	width: 223px;
+}
+.f-tabtxt{
+	padding-left: 6px;
+	font: 12px/21px 微软雅黑;
+}
+.f-tab-h3{
+	width: 217px;
+	color: #333;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.f-tab-text{
+	color: #b6b6b6;
+}
+.f-tab-bc{
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	border: solid 1px #ddd;
+	-moz-border-radius: 2px;      /* Gecko browsers */
+    -webkit-border-radius: 2px;   /* Webkit browsers */
+    border-radius:2px;            /* W3C syntax */
+    background: url(../images/spirit.png) no-repeat -35px -19px;
+    color: #999;
+    padding-left: 18px;
+    padding-right: 3px;
+    margin: 4px 0;
+}
+.f-tab-mon{
+	color: #ff3f00;
+}
+.tab-hover{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: 480px;
+	background-color: #fff;
+	-moz-box-shadow: 0 0 2px #c1c0c0;      /* Gecko browsers */
+	-webkit-box-shadow: 0 0 2px #c1c0c0;   /* Webkit browsers */
+	box-shadow: 0 0 2px #c1c0c0;          /* W3C syntax */
+}
+.tab-hover-img{
+	width: 223px;
+	height: 124px;
+	padding: 10px;
+}
+.tab-hover-text{
+	width: 220px;
+	height: 155px;
+	padding-left: 8px;
+	font-family: 微软雅黑
+}
+.h-h3{
+	padding: 15px 0;
+	font-size: 18px;
+	color:#000;
+}
+.h-text{
+	width: 100px;
+	padding-left: 16px;
+	padding-bottom: 14px;
+	background: url(../images/spirit.png) no-repeat -36px -21px;
+	font-size: 14px;
+}
+.h-prom{
+	font-size: 12px;
+	padding-bottom: 8px;
+}
+.detail{
+	font-size: 14px;
+	padding: 16px 34px 16px 21px;
+	line-height: 23px;
+}
+.ht{
+	margin-top: 152px;
+	background-color: #f8f8f8;
+}
+/*tab内容详情*/
+
+.m-aside{
+	margin-top: 84px;
+	width: 220px;
+	height: 1350px;
+	overflow: hidden;
+}
+.f-aside-t{
+	border-left: solid 1px #ecebeb;
+	border-right: solid 1px #ecebeb;
+	border-bottom: solid 1px #ddd;
+	background-color: #fff;
+}
+h4{
+	height: 54px;
+	padding-left: 20px;
+	border-bottom: solid 1px #ddd;
+	font: 16px/54px 微软雅黑;
+	color: #333;
+}
+.f-aside-t-txt{
+	padding: 21px 0 0 21px;
+	font: 14px 微软雅黑;
+	color: #666;
+}
+.f-aside-t-img{
+	position: relative;
+	width: 201px;
+	height: 139px;
+}
+.f-aside-t-img img{
+	width: 180px;
+	height: 110px;
+	padding: 9px 20px 0 19px;
+}
+.f-aside-t-img .img-icon{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 65px;
+	top: 32px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.f-aside-b{
+	border-left: solid 1px #ecebeb;
+	border-right: solid 1px #ecebeb;
+	border-bottom: solid 1px #ddd;
+	background-color: #fff;
+	margin-top: 20px;
+}
+.f-aside-b li{
+	height: 50px;
+	width: 190px;
+	padding: 20px 0 0 21px;
+	position: relative;
+}
+.f-aside-b ul{
+	position: absolute;
+	transition-duration: 0.5s;
+	top: -70px;
+}
+.f-aside-b h5{
+	padding-left: 12px;
+	font: 14px/1em 微软雅黑;
+	color: #333;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.f-aside-b-img{
+	height: 50px;
+	width: 50px;
+}
+.f-aside-b-br{
+	padding-left: 16px;
+	margin: 12px 0 0 60px;
+	background: url(../images/spirit.png) no-repeat -35px -22px;
+	color: #9c999c;
+}
+.aside{
+	height: 720px;
+	overflow: hidden;
+	position: relative;
+}
+/*侧边栏*/
+
+.f-page{
+	padding:15px 15px 0 0;
+}
+.f-page li{
+	cursor:pointer;
+	float: left;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	margin: 0 6px;
+	font: 14px/20px 微软雅黑;
+}
+.pageactv{
+	color: #9dd8b1;
+}
+.pagett{
+	padding:0 4px;
+	background-color: #9dd8b1;
+	color: #fff;
+}/*网页切换导航*/
+
+.g-foot{
+	display: inline-block;
+	margin-top: 90px;
+	width: 100%;
+	color: #a2a4a5;
+	font: 12.50px/2em 微软雅黑;
+	background-color: #2c3339;
+}
+.g-foot-m{
+	width: 1206px;
+	height: 263px;
+	margin: 0 auto;
+	background-color: #2c3339;
+}
+.g-foot .f-ht{
+	color: #39a030;
+	font-size: 22px;
+}
+.m-logo-b{
+	padding:95px 120px 0 50px;
+}
+.m-foot dl{
+	float: left;
+	padding: 95px 0 0 95px;
+}
+.m-foot dl a{
+	color: #a2a4a5;
+}
+.m-foot dl dd{
+	font-size: 10px;
+}
+.h25{
+	margin-top: 25px;
+}
+.webo{
+	width: 60px;
+	height: 24px;
+	background: url(../images/spirit.png) no-repeat -160px -10px;
+}
+@media screen and (max-width:1205px){
+    .tdnone{
+    	position: absolute; top: -999em;
+    }
+    .all{
+    	width: 960px;
+    	margin: 0 auto;
+    }
+    .g-head{
+    	margin-top: 32px;
+    }
+    .txtwh{
+    	width: 285px;
+    }
+    .icon{
+    	height: 195px;
+    }
+    .m-nav-text li+li{
+		margin-left: 52px;
+    }
+    .tab-hover{
+    	top: 0;
+    	left :235px;
+    }
+}
+/* 操作型弹出浮层-默认居中 */
+.m-layer,.m-layer .lymask{
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.m-layer{
+	display:none;
+	position:fixed;
+	_position:absolute;
+	z-index:999;
+}
+.m-layer .lymask{
+	position:absolute;
+	background:#000;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.m-layer .lytable{
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+}
+.m-layer .lytd{
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+.m-layer .lywrap{
+	position:relative;
+	width:380px;
+	margin:0 auto;
+	border:0;
+}
+.m-layer .lytt{
+	position:relative;
+	padding:10px;
+	height:20px;
+	margin:0 0 -1px;
+	line-height:20px;
+	background:#fafafa;
+}
+.m-layer .lyclose{
+	float:right;
+	font-weight:bold;
+	font-family:arial;
+	font-size:24px;
+	_font-size:16px;
+	color:#ccc;
+	text-shadow:0 1px #fff;
+	cursor:pointer;
+}
+.m-layer .lyclose:hover{
+	color:#aaa;
+}
+.m-layer .lyct{
+	padding:0 0 40px 40px;
+	background:#fff;
+}
+.lyct .legend{
+	font: 18px 微软雅黑;
+	padding-bottom: 20px;
+}
+.m-layer .lybt{ 
+	width: 285px;
+	height: 45px;
+	border: solid 1px #ddd;margin-bottom: 15px; padding-left: 10px;}
+.m-layer .lybtns{
+	margin-top: 10px;
+	 width: 293px;
+	 height: 46px;
+	 color: white;
+	 border: 0;
+	 background-color: #21a557;
+	 font:12px/12px Simsun;
+	 text-align: center;
+	}
+
+.backhove{
+	float: left;
+	height: 22px;
+	width: 65px;
+	margin-left: 30px;
+	padding-left: 20px;
+	background: #fff url(../images/spirit.png) no-repeat -105px 0;
+	color: black;
+	border: solid 1px #ecebeb;
+	font: 12px;
+}
+.escc{
+	float: left;
+	height: 22px;
+	width: 35px;
+	margin: 0;
+	background-color: #fff ;
+	color: #999;
+	border: solid 1px #ecebeb;
+	border-left: none;
+	font: 12px;
+	display: none;
+}
+/* 操作型弹出浮层-默认居中 */
+.m-video{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.7);
+}
+.m-video > table{
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+}
+.m-video .td{
+	vertical-align:middle;
+}
+.m-video .lywrap{
+	position:relative;
+	width:950px;
+	height: 678px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.m-video .lytt{
+	position:relative;
+	padding:10px; 
+	height:10px;
+	margin:0 0 -1px;
+	line-height:20px;
+	background:#fff;
+}
+.m-video .lytt h2{
+	float:left;
+	font-size:16px;
+}
+.m-video .lyclose{
+	float:right;
+	font-weight:bold;
+	font-family:arial;
+	font-size:24px;
+	color:#5a5a5a;
+	text-shadow:0 1px #fff;
+	cursor:pointer;
+}
+.m-video .lyclose:hover{color:#aaa;}
+.m-video h6{
+	font: 18px/1em 微软雅黑;
+	padding-left: 30px;
+}
+.m-video video{
+	width: 889px;
+	height: 567px;
+	padding: 10px 0 0 30px;
+}
+
+
+.escc:hover{
+	color: #21a557;
+	text-decoration:underline;
+}
+.m-nav li a:hover{
+	color: #21a557;
+}
+.m-nav-text li a:hover{
+	color: #21a557;
+	text-decoration:underline;
+}
+.ser:hover{
+	background: url(../images/spirit.png) no-repeat 0 -18px;
+}
+.f-tab-body td:hover{
+	-moz-box-shadow: 2px 3px 2px #d4d3d3;     /* Gecko browsers */
+	-webkit-box-shadow: 2px 3px 2px #d4d3d3;  /* Webkit browsers */
+	box-shadow: 2px 3px 2px #d4d3d3;          /* W3C syntax */
+}
+.f-page li:hover{
+	background-color: #9dd8b1;
+	color: #fff;
+}
+.f-page li:active{
+	color: #9dd8b1;
+}
+.pageactv{
+	color: #9dd8b1;
+}
+dl dt:hover{
+	text-decoration:underline;
+}
